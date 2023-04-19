@@ -15,6 +15,11 @@ Ejecutamos nuestro contenedor
 docker run -d -p 3000:3000 –name metabase metabase-oracle
 ```
 
+volver a ejecutar nuestro contenedor
+```
+docker start metabase-oracle
+```
+
 para acceder a la herramienta:
 
 ```
