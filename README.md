@@ -14,3 +14,15 @@ Ejecutamos nuestro contenedor
 ```
 docker run -d -p 3000:3000 –name metabase metabase-oracle
 ```
+
+para acceder a la herramienta:
+
+```
+http://url-host:3000
+```
+
+para detener el contenedor:
+
+```
+docker stop metabase-oracle
+```
